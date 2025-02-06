@@ -35,7 +35,7 @@ public class UserRestControl {
 
 	// Ajouter User : http://localhost:????/timesheet-devops/add-user 
 	@PostMapping("/add-user")
-	public User ajouterUser(@RequestBody User u) {
+	public User ajouterrUser(@RequestBody User u) {
 		User user = userService.addUser(u); 
 		return user;
 	}
